@@ -3,9 +3,9 @@ snowflake-connector-python
 
 import snowflake.connector
 
-streamlit==1.25.0
+#streamlit==1.25.0
 
-pyarrow==10.0.1
+#pyarrow==10.0.1
 
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 my_cur = my_cnx.cursor()
